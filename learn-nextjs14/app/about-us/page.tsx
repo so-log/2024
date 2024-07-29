@@ -1,9 +1,10 @@
-import Avartar from "./components/Avartar";
+import Navigation from "../../components/navigation";
 
 export default function AboutUs() {
   return (
-    <h1>
-      About us! <Avartar />
-    </h1>
+    <div>
+      <Navigation />
+      <h1>About us!</h1>;
+    </div>
   );
 }
